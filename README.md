@@ -1,12 +1,5 @@
-<h1 align="center">Flutter 小案例（flutter_widget）</h1>
+<h1 align="center">flutter dasktop appliction demo（flutter_widget),includes macos dasktop and linux dasktop</h1>
 
-## 扫码下载
-<p align="center">
-    <img width="200" title="Flutter" src="./picture/QRCode_258.png">
-</p>
-<h2 align="center">安装密码：123456</h2>
-
-## Flutter版本（要注意版本比如1.20.4的版本跑iOS会报找不到引擎）
 
 ```dart
 Flutter 1.20.4 • channel stable • https://github.com/flutter/flutter.git
@@ -14,40 +7,14 @@ Framework • revision fba99f6cf9 (6 days ago) • 2020-09-14 15:32:52 -0700
 Engine • revision d1bc06f032
 Tools • Dart 2.9.2
 ```
+## macos 运行
+```bash
+//首先确认是否开启macos-dasktop  
+flutter config --enable-linux-desktop:true  
+//修复flutter doctor  
+flutter run macos  
+```
 
-## 视频背景登录（IOS播放请使用真机调试）
-
-<p align="center">
-    <img width="375" title="Flutter" src="./picture/login_video_demo.gif">
-</p>
-
-## 仿马蜂窝自适应高度轮播图
-
-<p align="center">
-    <img width="375" title="Flutter" src="./picture/auto_height_carousel.gif">
-</p>
-
-## 自定义滑动（类似开言英语轮播图）
-<p align="center">
-    <img width="375" title="Flutter" src="./picture/swipe.gif">
-</p>
-
-## 滑动导航变色
-<p align="center">
-    <img width="375" title="Flutter" src="./picture/stack_navbar.gif">
-</p>
-
-## 滑动隐藏导航
-<p align="center">
-    <img width="375" title="Flutter" src="./picture/collapse_navigation.gif">
-</p>
-
-## App状态监听
-<p align="center">
-    <img width="375" title="Flutter" src="./picture/app_lifecycle_listen.gif">
-</p>
-
-## 错误信息
 
 ### 打包IOS程序报错
 
