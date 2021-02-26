@@ -1,7 +1,8 @@
-import 'package:flutter_widget/generated/json/base/json_convert_content.dart';
 
-class CategoryModelEntity with JsonConvert<CategoryModelEntity> {
+
+class CategoryModelEntity  {
 	String label;
 	String value;
 	String icon;
+	CategoryModelEntity(this.label,this.value,this.icon);
 }

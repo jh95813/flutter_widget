@@ -1,12 +1,12 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-class StackNavBar extends StatefulWidget {
+class ScrollContent extends StatefulWidget {
   @override
-  _StackStackNavBarState createState() => _StackStackNavBarState();
+  _ScrollContentState createState() => _ScrollContentState();
 }
 
-class _StackStackNavBarState extends State<StackNavBar>
+class _ScrollContentState extends State<ScrollContent>
     with TickerProviderStateMixin {
   AnimationController _colorAnimationController;
   AnimationController _textAnimationController;
